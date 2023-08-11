@@ -45,7 +45,7 @@ void SDB_APP()
 	uint32 i;
 	do
 	{
-		printf("Enter a number from 1 to 7: ");
+		printf("Enter a number from 0 to 7: ");
 		scanf_s("%d", &i);
 		SDB_Action(i);
 	} while (i != 0);
