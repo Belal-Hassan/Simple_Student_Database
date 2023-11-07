@@ -2,19 +2,19 @@
 <hr>
 <br />
 <div align="center">
-  <a href="https://github.com/BelalHassan7/AMIT_C_Project">
+  <a href="https://github.com/BelalHassan7/Simple_Student_Database">
   </a>
 <h3 align="center">Simple Student Database</h3>
   <p align="center">
     <br />
-    <a href="https://github.com/BelalHassan7/AMIT_C_Project"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/BelalHassan7/Simple_Student_Database"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/BelalHassan7/AMIT_C_Project">View Demo</a>
+    <a href="https://github.com/BelalHassan7/Simple_Student_Database">View Demo</a>
     ·
-    <a href="https://github.com/BelalHassan7/AMIT_C_Project/issues">Report Bug</a>
+    <a href="https://github.com/BelalHassan7/Simple_Student_Database/issues">Report Bug</a>
     ·
-    <a href="https://github.com/BelalHassan7/AMIT_C_Project/issues">Request Feature</a>
+    <a href="https://github.com/BelalHassan7/Simple_Student_Database/issues">Request Feature</a>
   </p>
 </div>
 <hr>
@@ -95,9 +95,9 @@ The output is dependent on command entered by the user.
 
 ## Contact
 
-Belal - belal.34327@gmail.com
+Belal - belal.34327@gmail.com, bilal.1021023@stemegypt.edu.eg
 
-Project Link: [https://github.com/BelalHassan7/AMIT_C_Project](https://github.com/BelalHassan7/AMIT_C_Project.git)
+Project Link: [https://github.com/BelalHassan7/Simple_Student_Database](https://github.com/BelalHassan7/Simple_Student_Database.git)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 [visual.js]: https://img.shields.io/badge/Visual-Studio?style=for-the-badge&logo=visual%20studio&logoColor=800080&labelColor=000000&color=000000
