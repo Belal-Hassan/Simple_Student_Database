@@ -97,7 +97,7 @@ The output is dependent on command entered by the user.
 
 Belal - belal.34327@gmail.com, bilal.1021023@stemegypt.edu.eg
 
-Project Link: [https://github.com/BelalHassan7/Simple_Student_Database](https://github.com/BelalHassan7/Simple_Student_Database.git)
+Project Link: [https://github.com/BelalHassan7/Simple_Student_Database](https://github.com/Belal-Hassan/Simple_Student_Database.git)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 [visual.js]: https://img.shields.io/badge/Visual-Studio?style=for-the-badge&logo=visual%20studio&logoColor=800080&labelColor=000000&color=000000
