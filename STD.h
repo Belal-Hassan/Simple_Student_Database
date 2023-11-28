@@ -1,5 +1,5 @@
 #pragma once
-
+// Defining the standard types used in this project.
 typedef unsigned char uint8;
 typedef char Int8;
 typedef unsigned short uint16;
