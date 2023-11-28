@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include "SDB.h"
 size = 0;
-
-bool SDB_isfull()
+// This is the source file of the main functions of the database.
+bool SDB_isfull() // Checks if the Database is full.
 {
 	if (size == 10)
 		return true;
@@ -10,12 +10,12 @@ bool SDB_isfull()
 		return false;
 }
 
-uint32 SDB_GetUsedSize()
+uint32 SDB_GetUsedSize() // Returns the current used size of the array.
 {
 	return size;
 }
 
-bool SDB_AddEntry()
+bool SDB_AddEntry() // Returns true when successfully adding a student's entry.
 {
 	if (!SDB_isfull())
 	{
@@ -42,14 +42,14 @@ bool SDB_AddEntry()
 	return false;
 }
 
-void swap(uint32* ptr1, uint32* ptr2)
+void swap(uint32* ptr1, uint32* ptr2) // Swaps 2 intergers.
 {
 	int temp = *ptr1;
 	*ptr1 = *ptr2;
 	*ptr2 = temp;
 }
 
-bool SDB_DeleteEntry(uint32 id)
+bool SDB_DeleteEntry(uint32 id) // Deletes a student's entry by the ID.
 {
 	for (int i = 0; i < size; i++)
 	{
@@ -70,7 +70,7 @@ bool SDB_DeleteEntry(uint32 id)
 	return false;
 }
 
-bool SDB_ReadEntry(uint32 id)
+bool SDB_ReadEntry(uint32 id) // Checks if a given ID exists in the database.
 {
 	for (int i = 0; i < size; i++)
 	{
@@ -91,13 +91,13 @@ bool SDB_ReadEntry(uint32 id)
 	return false;
 }
 
-void SDB_GetIds()
+void SDB_GetIds() // Reads a student's entry by the ID.
 {
 	for (int i = 0; i < size; i++)
 		printf("ID %d: %d\n", i+1, student[i].Student_ID);
 }
 
-bool SDB_DoesIdExist(uint32 id)
+bool SDB_DoesIdExist(uint32 id) // Returns a list of the IDs.
 {
 	for (int i = 0; i < size; i++)
 		if (id == student[i].Student_ID)
