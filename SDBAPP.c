@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include "SDBAPP.h"
 id = 0;
-
-void SDB_Action(uint32 choice)
+// This is the source file of the main functions used in the main source file.
+void SDB_Action(uint32 choice) // Function for choosing the command to excute in the database.
 {
 	switch (choice)
 	{
@@ -40,7 +40,7 @@ void SDB_Action(uint32 choice)
 	}
 }
 
-void SDB_APP()
+void SDB_APP() // The only function used in the main source file.
 {
 	uint32 i;
 	do
