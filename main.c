@@ -4,5 +4,5 @@
 
 void main()
 {
-	SDB_APP();
+	SDB_APP(); // The function used to excute all data base commands.
 }
